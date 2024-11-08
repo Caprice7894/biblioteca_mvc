@@ -1,6 +1,6 @@
 {
-    "name": "dani/eventos",
-    "description": "Sistema de gestión de eventos",
+    "name": "caprice7894/biblioteca",
+    "description": "Sistema de gestión de biblioteca",
     "type": "project",
     "autoload": {
         "psr-4": {

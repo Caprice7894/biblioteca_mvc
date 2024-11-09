@@ -59,7 +59,3 @@ CREATE TABLE book_label(
 	label_id INTEGER,
 	FOREIGN KEY(book_id) REFERENCES books(id) ON DELETE CASCADE ON UPDATE CASCADE,
 	FOREIGN KEY(label_id) REFERENCES labels(id) ON DELETE CASCADE ON UPDATE CASCADE
-);
-
-INSERT INTO users(name, email, password, is_admin) VALUES('Daniel', 'daniel@caprice.lat', 'password', true);
-INSERT INTO users(name, email, password, is_admin) VALUES('Daniel2', 'daniel2@caprice.lat', 'password', false);
